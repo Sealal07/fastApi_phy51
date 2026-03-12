@@ -4,7 +4,7 @@ from typing import Optional
 
 # pip install "python-jose[cryptography]" "passlib[bcrypt]"
 
-DATABASE_URL = 'postgresql://postgres:1234@localhost:5432/space_ship'
+DATABASE_URL = 'postgresql://postgres:1010@localhost:5432/space_ship'
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
